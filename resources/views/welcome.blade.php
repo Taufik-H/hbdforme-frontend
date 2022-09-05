@@ -1,5 +1,11 @@
-@include('layouts.app')
+<x-app-layout>
+@slot('header')
+   <x-navbar/>
+@endslot
 
-<x-navbar></x-navbar>
-<x-hero></x-hero>
-<x-footer></x-footer>
+<x-hero/>
+
+@slot('footer')
+    <x-footer/>
+@endslot
+</x-app-layout>

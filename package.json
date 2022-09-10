@@ -7,6 +7,7 @@
     "devDependencies": {
         "autoprefixer": "^10.4.8",
         "axios": "^0.27",
+        "flowbite": "^1.5.3",
         "laravel-vite-plugin": "^0.6.0",
         "lodash": "^4.17.19",
         "postcss": "^8.4.16",
@@ -14,6 +15,7 @@
         "vite": "^3.0.0"
     },
     "dependencies": {
-        "daisyui": "^2.24.0"
+        "daisyui": "^2.24.0",
+        "flowbite-datepicker": "^1.2.2"
     }
 }

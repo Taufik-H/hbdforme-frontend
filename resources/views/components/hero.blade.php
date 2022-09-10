@@ -1,5 +1,5 @@
 <div>
-    <div class="w-full text-center lg:text-left lg:flex items-center lg:justify-between">
+    <div class="w-full min-h-screen lg:h-auto text-center lg:text-left lg:flex items-center lg:justify-between bg-white">
         <div class="p-5 lg:pl-10">
             <div class="flex text-sm font-semibold uppercase text-rose-500 items-center lg:justify-start justify-center">
                 <div class="tracking-widest lg:text-left">special day reminder</div>
@@ -14,19 +14,19 @@
             <div class="mt-10 flex justify-center lg:justify-start lg:items-start gap-4">
                 {{-- this is the button --}}
                 <a href={{url('/gf')}} class="btn btn-primary rounded-full font-semibold normal-case px-7" >Girl friend</a>
-                <a href="#" class="btn btn-outline btn-secondary font-semibold rounded-full normal-case px-7">Your self</a>
+                <a href="{{url('/my')}} " class="btn btn-outline btn-secondary font-semibold rounded-full normal-case px-7">Your self</a>
             </div>
-            <div class="mt-5 text-gray-900">
+            <div class="mt-5 text-gray-900 text-left">
                 <p>support us :</p>
                 {{-- support --}}
                 <a href="#"class="flex gap-2 mt-4 text-gray-900">
 
-                    <img src="{{ Vite::asset('resources/images/github.png') }}">
+                    <img src="{{ Vite::asset('resources/images/github.png') }}" >
                     <p>GitHub</p>
                 </a>
             </div>
         </div>
-        <div class="w-full overflow-hidden -mt-32 py-10 lg:py-0">
+        <div class="w-full overflow-hidden -mt-32 py-10 lg:py-0 bg-white">
             <div class="absolute lg:relative w-ull float-right">
                 <div class=" lg:-mr-52 lg:-mt-40 mt-10 -z-10">
                     <img src="{{ Vite::asset('resources/images/space.png') }}">

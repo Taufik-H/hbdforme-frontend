@@ -13,5 +13,8 @@ class GirlFriend extends Component
         return view('livewire.girl-friend');
 
     }
+    public function back(){
+        return view('welcome');
+    }
 
 }

@@ -1,7 +1,7 @@
 
 <div>
     <nav>
-        <div class="px-10 py-5 flex items-end justify-center md:justify-start">
+        <div class="px-10 py-5 flex items-end justify-center md:justify-start bg-white">
             <img src="{{ Vite::asset('resources/images/logo.png') }}">
             <div class="flex text-3xl font-bold">
                 <span class="text-rose-500">H</span>

@@ -26,6 +26,8 @@
         {{$footer}}
         @endisset
     </div>
+    <script src="https://unpkg.com/flowbite@1.5.3/dist/datepicker.js"></script>
+    <script src="../path/to/flowbite/dist/flowbite.js"></script>    
     @livewireScripts
 </body>
 </html>

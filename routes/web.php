@@ -22,5 +22,8 @@ Route::get('/', function () {
 Route::get('/gf', function () {
     return view('girlfriend');
 });
+Route::get('/my', function () {
+    return view('yourself');
+});
 
 
